@@ -1,0 +1,108 @@
+body{
+    background-color: rgba(61, 61, 61, 1);
+    color: black !important;
+}
+
+.navbar-light .navbar-brand{
+    color: whitesmoke;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: whitesmoke;
+}
+
+.navbar{
+    background-color: rgb(61, 61, 61) !important;
+}
+
+
+
+img {
+    width:200px ;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+ font-size: 3vw;
+}
+
+h2{
+    padding: 5px;
+    font-size: 2vw;
+
+}
+
+h4{
+    padding: 5px;
+    font-size: 1vw;
+
+}
+
+.btn{
+    margin: 5px;
+}
+
+.table {
+    color: white;
+}
+
+#mostrar {
+   display: block !important; 
+}
+
+#esconder {
+    display: none !important;
+}
+
+
+
+@media only screen and (max-width: 1440px) {
+
+    h4{
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    h1{
+        font-size: 4vw;
+    }
+
+    h2{
+        padding: 5px;
+        font-size: 4vw;
+
+    }
+
+    h4{
+        font-size: 4vw;
+    }
+
+    .container{
+        max-width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100% !important;
+    }
+}
+
+
+
